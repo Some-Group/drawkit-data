@@ -1,0 +1,7 @@
+title: rectangle layer
+description: rectangle layers are the result of adding a rectangle shape to the canvas
+type: object
+allOf:
+  - type: object
+    properties:
+      fixedRadius: { type: number }

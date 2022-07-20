@@ -1,0 +1,11 @@
+title: Page Layer
+description: Page layers are the top level within a document
+allOf:
+  - type: object
+    properties:
+      _type: { const: page }
+      layers:
+        type: array
+        items:
+          oneOf:
+            - { $ref: ./rectangle.schema.yaml }
